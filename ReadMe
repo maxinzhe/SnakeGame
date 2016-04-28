@@ -1,0 +1,30 @@
+Snake Game Description
+First, the Game
+The main function: 
+(1) Level setting set by the game into the game, during the game you can choose how fast the speed of the game to choose the difficulty level.
+(2) can choose to have no boundaries and borders hinder obstruction.
+Interface function:
+(3) the game window menu is customizable, simple design several menu items, convenient choice to start the game, leaving the game, speed, speed, with or without borders.
+(4) at the bottom right of the game interface has a display current scores, so that the user easy to understand their own record.
+
+
+Second, the implementation steps
+1 Set 30 × 40 interface and color, set the console window title, and then customize
+Meaning menu
+2, setting some of the major features, start the game, leaving the difficulty level and whether the wall
+Wall (code reference)
+3. Set snake beans and position size and color
+4, to consider when setting a direction to move the snake, by the smugglers did not hit their own side and
+Premise sector, it is determined whether the snake to eat food, eat food if you need
+
+
+
+          
+
+
+
+
+
+
+
+将吃到的食物作为蛇头，否则需要在原来蛇头的下一个坐标作为蛇头，而蛇尾需要被去除，同时加分。
